@@ -1,1 +1,92 @@
-<mxfile host="www.draw.io" modified="2020-03-07T07:53:18.659Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36" version="12.8.1" etag="bOTAtXnRInE1PAz3fRzh" type="github"><diagram id="z0kovIr-abivW7SxqLE8">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2020-03-07T08:14:07.185Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36" etag="jRm09v071zYtjTVm20_t" version="12.8.1" type="github">
+  <diagram id="z0kovIr-abivW7SxqLE8" name="第 1 页">
+    <mxGraphModel dx="946" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GsCrFjlHwyR1Xrc-frhc-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="120" width="380" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="GsCrFjlHwyR1Xrc-frhc-2" value="连接器" style="ellipse;whiteSpace=wrap;html=1;fillColor=#CCFFFF;" vertex="1" parent="1">
+          <mxGeometry x="370" y="150" width="105" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GsCrFjlHwyR1Xrc-frhc-3" value="查询缓存" style="ellipse;whiteSpace=wrap;html=1;fillColor=#CCFFFF;" vertex="1" parent="1">
+          <mxGeometry x="270" y="220" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GsCrFjlHwyR1Xrc-frhc-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="GsCrFjlHwyR1Xrc-frhc-4" target="GsCrFjlHwyR1Xrc-frhc-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GsCrFjlHwyR1Xrc-frhc-4" value="分析器" style="ellipse;whiteSpace=wrap;html=1;fillColor=#CCFFFF;" vertex="1" parent="1">
+          <mxGeometry x="470" y="220" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GsCrFjlHwyR1Xrc-frhc-5" value="优化器" style="ellipse;whiteSpace=wrap;html=1;fillColor=#CCFFFF;" vertex="1" parent="1">
+          <mxGeometry x="380" y="320" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GsCrFjlHwyR1Xrc-frhc-6" value="执行器" style="ellipse;whiteSpace=wrap;html=1;fillColor=#CCFFFF;" vertex="1" parent="1">
+          <mxGeometry x="365" y="410" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GsCrFjlHwyR1Xrc-frhc-8" value="" style="endArrow=classic;html=1;exitX=0.973;exitY=0.65;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="GsCrFjlHwyR1Xrc-frhc-2" target="GsCrFjlHwyR1Xrc-frhc-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="310" as="sourcePoint" />
+            <mxPoint x="440" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GsCrFjlHwyR1Xrc-frhc-10" value="" style="endArrow=classic;html=1;entryX=0.445;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.218;exitY=0.9;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="GsCrFjlHwyR1Xrc-frhc-4" target="GsCrFjlHwyR1Xrc-frhc-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="310" as="sourcePoint" />
+            <mxPoint x="440" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GsCrFjlHwyR1Xrc-frhc-11" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GsCrFjlHwyR1Xrc-frhc-5" target="GsCrFjlHwyR1Xrc-frhc-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="310" as="sourcePoint" />
+            <mxPoint x="440" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GsCrFjlHwyR1Xrc-frhc-13" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GsCrFjlHwyR1Xrc-frhc-2" target="GsCrFjlHwyR1Xrc-frhc-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="310" as="sourcePoint" />
+            <mxPoint x="440" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GsCrFjlHwyR1Xrc-frhc-14" value="Client APP" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="387.5" y="40" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GsCrFjlHwyR1Xrc-frhc-15" value="存储引擎层" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="520" width="380" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GsCrFjlHwyR1Xrc-frhc-16" value="&lt;font style=&quot;font-size: 18px&quot;&gt;MySQL Server&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="390" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GsCrFjlHwyR1Xrc-frhc-22" value="" style="shape=flexArrow;endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.021;entryY=0.633;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GsCrFjlHwyR1Xrc-frhc-3" target="GsCrFjlHwyR1Xrc-frhc-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="340" as="sourcePoint" />
+            <mxPoint x="170" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="120" y="250" />
+              <mxPoint x="120" y="78" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GsCrFjlHwyR1Xrc-frhc-24" value="直接返回" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="220" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GsCrFjlHwyR1Xrc-frhc-25" value="&lt;h1&gt;功能说明&lt;/h1&gt;&lt;p&gt;&lt;b&gt;&lt;font color=&quot;#0000ff&quot;&gt;连接器&lt;/font&gt;&lt;/b&gt;：管理连接、权限认证&lt;/p&gt;&lt;p&gt;&lt;b&gt;&lt;font color=&quot;#0000ff&quot;&gt;分析器&lt;/font&gt;&lt;/b&gt;：词法分析、语义分析&lt;/p&gt;&lt;p&gt;&lt;b&gt;&lt;font color=&quot;#0000ff&quot;&gt;优化器&lt;/font&gt;&lt;/b&gt;：索引选择、生成执行计划&lt;/p&gt;&lt;p&gt;&lt;b&gt;&lt;font color=&quot;#0000ff&quot;&gt;执行器&lt;/font&gt;&lt;/b&gt;：操作引擎、接收返回结果&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="610" y="120" width="190" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="GsCrFjlHwyR1Xrc-frhc-26" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="GsCrFjlHwyR1Xrc-frhc-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="340" as="sourcePoint" />
+            <mxPoint x="420" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GsCrFjlHwyR1Xrc-frhc-27" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="GsCrFjlHwyR1Xrc-frhc-2" target="GsCrFjlHwyR1Xrc-frhc-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="340" as="sourcePoint" />
+            <mxPoint x="440" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
